@@ -99,6 +99,6 @@ BootstrapLaboratory projects are designed to teach architecture through implemen
 - [Rush Delivery](https://github.com/BootstrapLaboratory/rush-delivery)
 - [Labkit](https://github.com/BootstrapLaboratory/labkit)
 - [Anonymous Chat Reference App](https://github.com/BootstrapLaboratory/typescript_monorepo_nestjs_relay_trunk)
-- [AWS Lambda With Rust](https://bootstraplaboratory.github.io/aws_lambda_rust_runtime/)
+- [AWS Lambda With Rust](https://github.com/BootstrapLaboratory/aws_lambda_rust_runtime)
 
 BootstrapLaboratory exists for developers who want strong foundations, clear architecture, and production-ready examples they can actually learn from and build on.
