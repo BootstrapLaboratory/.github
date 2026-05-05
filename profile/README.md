@@ -1,35 +1,105 @@
-Welcome to **BootstrapLaboratory**, your one-stop destination for production-ready project setups and comprehensive tutorials designed for modern software development.
+# BootstrapLaboratory
 
-## What We Do
+**BootstrapLaboratory** builds production-grade reference systems, reusable libraries, and deep technical tutorials for modern software teams.
 
-At BootstrapLaboratory, we are passionate about making development both comfortable and efficient. Our organization provides meticulously crafted project setups that are:
+Our projects are not toy demos. They are designed around real application constraints: monorepo workflows, CI/CD, package releases, full-stack GraphQL apps, authentication, realtime features, cloud deployment, documentation versioning, and repeatable developer experience.
 
-- **Production-Ready:** Each setup is designed with real-world projects in mind.
-- **Modern & Scalable:** We embrace the latest technologies and best practices to ensure robust, scalable solutions.
-- **Comprehensive:** From the initial project configuration to the complete software development life cycle, our setups cover every aspect of development.
+## What We Build
 
-## Step-by-Step Tutorials
+BootstrapLaboratory focuses on complete, practical foundations for serious software projects:
 
-Every project setup comes with an in-depth, course-style tutorial. Our lessons break down each sub-system in detail, guiding you step-by-step through the process of building and deploying a production-ready project from scratch. Whether you're a beginner or a seasoned developer, our tutorials are structured to enhance your learning experience.
+- **Reference Implementations**  
+  Full working applications that show how modern systems fit together in practice.
 
-### Featured Tutorial
+- **Reusable Infrastructure**  
+  Libraries and automation that extract repeatable patterns from real projects.
 
-- **AWS Lambda With Rust:**  
-  Dive into our flagship tutorial book that demonstrates how to build and deploy AWS Lambda functions using Rust. Get started here: [AWS Lambda With Rust](https://bootstraplaboratory.github.io/aws_lambda_rust_runtime/)
+- **Production Workflows**  
+  CI/CD, validation, package release, deployment, and documentation flows built for long-term maintenance.
+
+- **Step-by-Step Documentation**  
+  Tutorials and guides that explain not only what to run, but why the system is shaped that way.
+
+## Featured Projects
+
+### Rush Delivery
+
+[Rush Delivery](https://github.com/BootstrapLaboratory/rush-delivery) is a Dagger-powered GitHub Action and CI release engine for Rush monorepos.
+
+It provides a repeatable workflow for:
+
+- pull request validation;
+- affected target detection;
+- build, lint, test, and verify stages;
+- package artifact creation;
+- npm package releases through Rush change files;
+- deployment orchestration from repository metadata;
+- local debugging of the same CI workflow.
+
+Rush Delivery is built for teams that want their release pipeline to be portable, inspectable, and consistent across local development and CI.
+
+### Labkit
+
+[Labkit](https://github.com/BootstrapLaboratory/labkit) is a set of small TypeScript packages for building high-end GraphQL server/client applications.
+
+It provides reusable runtime building blocks for:
+
+- NestJS GraphQL servers;
+- React, Vite, and Relay webapps;
+- auth contracts, access tokens, refresh sessions, and HttpOnly cookie flows;
+- realtime GraphQL websocket reconnect behavior;
+- TypeORM database manifests and migration safety;
+- browser auth state, Relay environments, route preloading, and theme helpers.
+
+Labkit keeps reusable application infrastructure in packages while leaving product-specific schema, resolvers, UI, deployment, and business behavior in the consuming app.
+
+### Production Reference App
+
+[Anonymous Chat](https://github.com/BootstrapLaboratory/typescript_monorepo_nestjs_relay_trunk) is a complete full-stack reference implementation that shows Rush Delivery and Labkit concepts working together in a real application.
+
+The app includes:
+
+- a NestJS GraphQL backend;
+- a React/Vite/Relay frontend;
+- websocket subscriptions for realtime chat;
+- authentication with refresh sessions;
+- PostgreSQL and TypeORM;
+- Redis pub/sub;
+- Rush monorepo structure;
+- Dev Container local development;
+- Cloud Run, Neon, Upstash, and Cloudflare Pages deployment.
+
+Live example: [bootlab-example-rush-delivery.pages.dev](https://bootlab-example-rush-delivery.pages.dev/)
+
+### AWS Lambda With Rust
+
+[AWS Lambda With Rust](https://bootstraplaboratory.github.io/aws_lambda_rust_runtime/) is a course-style tutorial for building and deploying AWS Lambda functions with Rust.
+
+It reflects the same BootstrapLaboratory approach: practical setup, clear architecture, and production-aware explanation.
 
 ## Why BootstrapLaboratory?
 
-- **Real-World Focus:** Our projects are designed to be implemented in actual production environments.
-- **Modern Tools:** Stay ahead with cutting-edge technologies and streamlined workflows.
-- **Learning by Doing:** Comprehensive lessons ensure you not only understand the theory but also gain practical, hands-on experience.
+### Real Systems, Not Snippets
 
-## Get Involved
+Our projects are built from complete workflows and real constraints. The goal is to show how the pieces behave together when a project grows beyond a quick demo.
 
-We invite you to explore our repositories, learn from our tutorials, and contribute to our growing community. Whether you're looking to kickstart a new project or enhance your skills, BootstrapLaboratory is here to help you build smarter, better, and faster.
+### Reusable Patterns From Production Work
 
----
+Libraries like Labkit are extracted from actual application architecture. Tools like Rush Delivery automate workflows that real monorepos need: validation, release, packaging, deployment, and documentation lifecycle.
 
-Happy Coding!  
-The BootstrapLaboratory Team
+### Strong Developer Experience
 
-Feel free to reach out or open an issue if you have any questions or suggestions.
+We care about repeatable local development, predictable CI, clear package boundaries, and documentation that helps future maintainers understand the system.
+
+### Learn By Building The Whole Thing
+
+BootstrapLaboratory projects are designed to teach architecture through implementation. You can study the reference app, use the libraries, adopt the workflows, or follow the tutorials step by step.
+
+## Explore
+
+- [Rush Delivery](https://github.com/BootstrapLaboratory/rush-delivery)
+- [Labkit](https://github.com/BootstrapLaboratory/labkit)
+- [Anonymous Chat Reference App](https://github.com/BootstrapLaboratory/typescript_monorepo_nestjs_relay_trunk)
+- [AWS Lambda With Rust](https://bootstraplaboratory.github.io/aws_lambda_rust_runtime/)
+
+BootstrapLaboratory exists for developers who want strong foundations, clear architecture, and production-ready examples they can actually learn from and build on.
