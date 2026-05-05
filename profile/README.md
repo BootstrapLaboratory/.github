@@ -39,7 +39,7 @@ Rush Delivery is built for teams that want their release pipeline to be portable
 
 ### Labkit
 
-[Labkit](https://github.com/BootstrapLaboratory/labkit) is a set of small TypeScript packages for building high-end GraphQL server/client applications.
+[Labkit](https://bootstraplaboratory.github.io/labkit/) is a set of small TypeScript packages for building high-end GraphQL server/client applications.
 
 It provides reusable runtime building blocks for:
 
