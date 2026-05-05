@@ -54,7 +54,7 @@ Labkit keeps reusable application infrastructure in packages while leaving produ
 
 ### Production Reference App
 
-[Anonymous Chat](https://github.com/BootstrapLaboratory/typescript_monorepo_nestjs_relay_trunk) is a complete full-stack reference implementation that shows Rush Delivery and Labkit concepts working together in a real application.
+[Anonymous Chat](https://bootlab-example-rush-delivery.pages.dev/) is a complete full-stack reference implementation that shows Rush Delivery and Labkit concepts working together in a real application.
 
 The app includes:
 
