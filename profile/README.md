@@ -23,8 +23,7 @@ BootstrapLaboratory focuses on complete, practical foundations for serious softw
 ## Featured Projects
 
 ### Rush Delivery
-
-[Rush Delivery](https://github.com/BootstrapLaboratory/rush-delivery) is a Dagger-powered GitHub Action and CI release engine for Rush monorepos.
+[Rush Delivery](https://bootstraplaboratory.github.io/rush-delivery/) is a Dagger-powered GitHub Action and CI release engine for Rush monorepos.
 
 It provides a repeatable workflow for:
 
